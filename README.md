@@ -1,7 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Using this tutorial:
+https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable
 
 Things you may want to cover:
 

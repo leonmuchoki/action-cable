@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+  #mount the Action Cable server on a sub-URI of our main application
+  mount ActionCable.server => '/cable' #Action Cable will be listening for WebSocket requests on ws://localhost:3000/cable
+
   root "welcome#about"
 
   get '/signup', to: "registrations#new"
